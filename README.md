@@ -1,6 +1,19 @@
 This project is useful to syntax highlight code snippets. 
 
-1. Run the app, use markdown to specify the language to use for syntax highlighting. 
+1. Run the app, use markdown to specify the language to use for syntax highlighting. For instance, to use Ruby:
+
+```ruby
+class Stack
+  def initialize
+    @elements = []
+  end
+  
+  def push(element)
+    @elements << element
+  end  
+end
+```
+
 2. Use Chrome browser to view the snippet show page, copy the code and paste it in blog hosted on blogger for instance.
 3. Your blog posts will now be syntax highlighted. 
 
